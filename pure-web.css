@@ -1,0 +1,153 @@
+@-moz-document domain("weibo.com") {
+    [feedtype="ad"],
+    .gn_nav_list > li:nth-of-type(2),
+    .gn_nav_list > li:nth-of-type(4),
+    #v6_pl_rightmod_noticeboard,
+    #v6_trustPagelet_recom_member,
+    #v6_pl_rightmod_rank,
+    #v6_pl_rightmod_attfeed,
+    .key[node-type="recommendTopic"],
+    div[ad-data],
+    .M_sc_tips {
+        display: none;
+    }
+    /*隐藏左侧栏的热门视频和热门微博*/
+    
+    .lev_line_v2+div.lev_Box,
+    .lev_line_v2 {
+        display: none;
+    }
+    /*隐藏姓名框的等级和会员图标*/
+    
+    .nameBox a>i.icon_member_dis,
+    span[node-type="levelBox"] {
+        display: none;
+    }
+    /*隐藏播放音乐的按钮*/
+    
+    div[node-type=box][i-am-music-player] {
+        display: none;
+    }
+    .WB_red2017,
+    .item.S_line2:nth-of-type(1) {
+        display: none;
+    }
+    }
+    
+    @-moz-document domain("zhihu.com") {
+    .Card.Banner,
+    .Footer,
+    .TopstorySideBar-couponItem,
+    .TopstorySideBar-categoryList,
+    .TopstoryItem--advertCard,
+    .shameimaru-section .shameimaru-link,
+    .zh-footer{
+        display: none;
+    }
+    }
+    
+    @-moz-document domain("www.baidu.com"), domain("zhidao.baidu.com") {
+    #s_wrap,            /*首页的我的导航框*/
+    #bottom_container, /*首页的footer*/
+    a.s-skin,
+    .ad-block,  /*招商广告*/
+    .result.c-container:last-of-type + div, /*搜索结果中的广告*/
+    #tpl,
+    .wgt-daily,/*知道日报*/
+    .hao123-box,
+    iframe,
+    .cms-slide,
+    .widget-new-graphic,
+    .widget-sma,
+    [tpl="right_toplist"] /*热搜*/{
+        display: none;
+    }
+    
+    #lg{
+        margin-top:100px;
+    }
+    
+    }
+    
+    @-moz-document domain("baike.baidu.com") {
+    
+    .topA,
+    .right-ad,
+    .lemmaWgt-sideRecommend,
+    .lemmaWgt-promotion-vbaike,
+    #side_box_unionAd,
+    #BOTTOM_PRO_AD,
+    #tashuo_right,
+    #tashuo_bottom,
+    #fc_guess_like_new
+    {
+        display:none !important;
+    }
+    }
+    
+    @-moz-document domain("iteye.com") {
+    #layerd,
+    #page > #branding:nth-of-type(1),
+    #nav_show_top_stop{
+        display:none;
+    }
+    }
+    
+    @-moz-document domain("cnblogs.com") {
+    #cnblogs_a1,
+    #cnblogs_b1,
+    #cnblogs_b2,
+    #cnblogs_b3,
+    #cnblogs_b4,
+    #cnblogs_c1,
+    #cnblogs_c2,
+    #ad_t2,
+    #under_post_news,
+    #under_post_kb{
+    display:none;
+    }
+    }
+    
+    @-moz-document domain("csdn.net") {
+    .banner-ad-box,
+    .slide-outer.right_top,
+    .right_extension.slide-outer,
+    .flashrecommend,
+    #article_ad,
+    #nav_show_top_stop,
+    #homepageArticles,
+    #main .recommend_list dl:not(.recommend_article),
+    .fixRight>div:nth-of-type(1){
+        display:none !important; 
+    }
+    }
+    
+    @-moz-document domain("fanyi.baidu.com") {
+    .trans-ad-app-wrap,
+    .hot-link-middle,
+    .spread-wrap{
+        display:none !important; 
+    }
+    }
+    
+    @-moz-document domain("reddit.com") {
+    #ad_1,
+    #ad_4,
+    #ad_5,
+    #ad_6{
+        display:none !important;
+    }
+    }
+    
+    @-moz-document domain("blog.163.com") {
+    #topbar_yxpArea,
+    #topbar_lofterDldArea,
+    #topbar_gachaArea,
+    #topbar_randShowArea,
+    .m-fixedPCAd.f-trans,
+    .adv-iframe,
+    .m-adv,
+    #lmid_iframe{
+        display:none !important;
+    }
+    }
