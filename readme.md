@@ -12,5 +12,6 @@
 * csdn
 * reddit
 * 网易博客
+* 新浪博客
 
 欢迎大家Pull Request
