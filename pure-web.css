@@ -123,6 +123,13 @@ domain("zhidao.baidu.com") {
     #nav_show_top_stop,
     #homepageArticles,
     #main .recommend_list dl:not(.recommend_article),
+    .pulllog .float-left,
+    .indexSuperise .light-box img,
+    .showBig img,
+    .fourth_column,
+    #adContent,
+    #asideFooter,
+    .mediav_ad,
     .fixRight>div:nth-of-type(1) {
         display: none !important;
     }
