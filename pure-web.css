@@ -177,3 +177,13 @@ domain("zhidao.baidu.com") {
         display: none !important;
     }
 }
+
+@-moz-document domain("oschina.net") {
+    .index-ad-wrap,
+    [name="index_banner_four"],
+    .detail_banner_ad,
+    .ad-wrap,
+    .week-magazine-container {
+        display: none !important;
+    }
+}
