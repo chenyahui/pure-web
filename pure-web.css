@@ -40,6 +40,7 @@
     .shameimaru-section .shameimaru-link,
     .Banner-image,
     .Pc-card img,
+    [title="third_ad"],
     .zh-footer {
         display: none !important;
     }
