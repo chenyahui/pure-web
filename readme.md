@@ -13,5 +13,6 @@
 * reddit
 * 网易博客
 * 新浪博客
+* v2ex
 
 欢迎大家Pull Request
