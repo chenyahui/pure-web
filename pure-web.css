@@ -64,6 +64,7 @@
         .cms-slide,
         .widget-new-graphic,
         .widget-sma,
+         .icon-hotlk,
         [tpl="right_toplist"]/*热搜*/
             {
             display: none;
@@ -192,6 +193,14 @@
     
     @-moz-document domain("v2ex.com") {
     .adsbygoogle
+    {
+        display: none !important;
+    }
+    }
+    
+    @-moz-document domain("runoob.com") {
+    #sidebar-right-re,
+    .recommend-here
     {
         display: none !important;
     }
