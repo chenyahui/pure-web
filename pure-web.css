@@ -69,9 +69,6 @@
             {
             display: none;
         }
-        #lg {
-            margin-top: 100px;
-        }
     }
     
     @-moz-document domain("baike.baidu.com") {
