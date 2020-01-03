@@ -1,5 +1,5 @@
 @-moz-document domain("weibo.com") {
-    [feedtype="ad"],
+[feedtype="ad"],
         .gn_nav_list>li:nth-of-type(2),
         .gn_nav_list>li:nth-of-type(4),
         #v6_pl_rightmod_noticeboard,
@@ -29,10 +29,10 @@
         .item.S_line2:nth-of-type(1) {
             display: none;
         }
-    }
-    
-    @-moz-document domain("zhihu.com") {
-    .Card.Banner,
+}
+
+@-moz-document domain("zhihu.com") {
+.Card.Banner,
         .Footer,
         .TopstorySideBar-couponItem,
         .TopstorySideBar-categoryList,
@@ -44,10 +44,10 @@
         .zh-footer {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("www.baidu.com"), domain("zhidao.baidu.com") {
-    #s_wrap,
+}
+
+@-moz-document domain("www.baidu.com"), domain("zhidao.baidu.com") {
+#s_wrap,
         /*首页的我的导航框*/
         #bottom_container,
         /*首页的footer*/
@@ -65,14 +65,15 @@
         .widget-new-graphic,
         .widget-sma,
          .icon-hotlk,
+		.qrcodeCon,
         [tpl="right_toplist"]/*热搜*/
             {
             display: none;
         }
-    }
-    
-    @-moz-document domain("baike.baidu.com") {
-    .topA,
+}
+
+@-moz-document domain("baike.baidu.com") {
+.topA,
         .right-ad,
         .lemmaWgt-sideRecommend,
         .lemmaWgt-promotion-vbaike,
@@ -83,18 +84,18 @@
         #fc_guess_like_new {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("iteye.com") {
-    #layerd,
+}
+
+@-moz-document domain("iteye.com") {
+#layerd,
         #page>#branding:nth-of-type(1),
         #nav_show_top_stop {
             display: none;
         }
-    }
-    
-    @-moz-document domain("cnblogs.com") {
-    #cnblogs_a1,
+}
+
+@-moz-document domain("cnblogs.com") {
+#cnblogs_a1,
         #cnblogs_b1,
         #cnblogs_b2,
         #cnblogs_b3,
@@ -106,10 +107,10 @@
         #under_post_kb {
             display: none;
         }
-    }
-    
-    @-moz-document domain("csdn.net") {
-    .banner-ad-box,
+}
+
+@-moz-document domain("csdn.net") {
+.banner-ad-box,
         .slide-outer.right_top,
         .right_extension.slide-outer,
         .flashrecommend,
@@ -132,27 +133,27 @@
         .fixRight>div:nth-of-type(1) {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("fanyi.baidu.com") {
-    .trans-ad-app-wrap,
+}
+
+@-moz-document domain("fanyi.baidu.com") {
+.trans-ad-app-wrap,
         .hot-link-middle,
         .spread-wrap {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("reddit.com") {
-    #ad_1,
+}
+
+@-moz-document domain("reddit.com") {
+#ad_1,
         #ad_4,
         #ad_5,
         #ad_6 {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("blog.163.com") {
-    #topbar_yxpArea,
+}
+
+@-moz-document domain("blog.163.com") {
+#topbar_yxpArea,
         #topbar_lofterDldArea,
         #topbar_gachaArea,
         #topbar_randShowArea,
@@ -162,10 +163,10 @@
         #lmid_iframe {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("blog.sina.com.cn") {
-    #sinaadToolkitBox0,
+}
+
+@-moz-document domain("blog.sina.com.cn") {
+#sinaadToolkitBox0,
         #sinaadToolkitBox1,
         #sinaadToolkitBox2,
         #sinaadToolkitBox3,
@@ -175,10 +176,10 @@
         .blogreco {
             display: none !important;
         }
-    }
-    
-    @-moz-document domain("oschina.net") {
-    .index-ad-wrap,
+}
+
+@-moz-document domain("oschina.net") {
+.index-ad-wrap,
     [name="index_banner_four"],
     .detail_banner_ad,
     .ad-wrap,
@@ -186,19 +187,19 @@
     {
         display: none !important;
     }
-    }
-    
-    @-moz-document domain("v2ex.com") {
-    .adsbygoogle
+}
+
+@-moz-document domain("v2ex.com") {
+.adsbygoogle
     {
         display: none !important;
     }
-    }
-    
-    @-moz-document domain("runoob.com") {
-    #sidebar-right-re,
+}
+
+@-moz-document domain("runoob.com") {
+#sidebar-right-re,
     .recommend-here
     {
         display: none !important;
     }
-    }
+}
