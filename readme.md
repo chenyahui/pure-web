@@ -16,5 +16,6 @@
 10. 开源中国
 11. v2ex
 12. runoob.com
+13. 简书
 
 欢迎大家Pull Request
